@@ -7,49 +7,39 @@
 
 
 @font-face {
-    font-family: 'Hedvig_Letters_Sans';
-    src: url('../fonts/HedvigLettersSans-Regular.ttf') format('ttf');
+    font-family: 'Silver_Garden';
+    src: url('../fonts/Silver\ Garden.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
-    font-family: 'Hedvig_Letters_Sans';
-    src: url('../fonts/HedvigLettersSans-Regular.ttf') format('ttf');
+    font-family: 'Siver_Garden';
+    src: url('../fonts/Silver\ Garden\ Bold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
   }
   
   @font-face {
-    font-family: 'Hedvig_Letters_Serif';
-    src: url('../fonts/HedvigLettersSerif-Regular-VariableFont_opsz.ttf') format('ttf');
+    font-family: 'Plus_Jakarta_Sans';
+    src: url('../fonts/PlusJakartaSans-Regular.ttf') format('ttf');
     font-weight: lighter;
     font-style: normal;
   }
   
   @font-face {
-    font-family: 'Hedvig_Letters_Serif';
-    src: url('../fonts/HedvigLettersSerif-Regular-VariableFont_opsz.ttf') format('ttf');
+    font-family: 'Plus_Jakarta_Sans';
+    src: url('../fonts/PlusJakartaSans-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
-    font-family: 'Hedvig_Letters_Serif';
-    src: url('../fonts/HedvigLettersSerif-Regular-VariableFont_opsz.ttf') format('ttf');
+    font-family: 'Plus_Jakarta_Sans';
+    src: url('../fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf') format('ttf');
     font-weight: normal;
     font-style: italic;
   }
-  /* @font-face {
-    font-family: 'LexendDeca-VariableFont_wght';
-    src: url('../fonts/LexendDeca-VariableFont_wght.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
-  } */
-
-
-  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
-
 
 
   body {
@@ -80,14 +70,14 @@ header {
 
 
 h2 {
- font-family: 'Hedvig_Letters_Sans';
+ font-family: 'Silver_Garden';
   margin: 1%;
   padding: 1rem;
   color: #544A47;
 }
 
 h3 {
-  font-family: 'Hedvig_Letters_Sans';
+  font-family: 'Silver_Garden';
     color: #B3ADA0;
 }
 
@@ -141,7 +131,7 @@ footer {
     color: #ffffff;
     font-size:16px;
     font-weight: normal;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Plus_Jakarta_Sans', sans-serif;
     margin: 1%;
     padding: 0;
     line-height: 1.4;
@@ -166,7 +156,7 @@ img{
 }
 
 h3{
-  font-family: 'Hedvig_Letters_Sans';
+  font-family: 'Plus_Jakarta_Sans';
   margin: 1%;
   padding: 0.5rem 3%;
   color: #3f3937;
@@ -179,7 +169,7 @@ p {
 
   font-size:16px;
   font-weight: normal;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Plus_Jakarta_Sans', sans-serif;
   margin: 2.4%;
   padding: 0.2rem 3.5% 0.7rem 3.5%;
   line-height: 1.4;
