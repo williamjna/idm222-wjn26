@@ -1,0 +1,714 @@
+* {
+  /* border: 1px solid red; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'Hedvig_Letters_Sans';
+    src: url('../fonts/HedvigLettersSans-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Hedvig_Letters_Sans';
+    src: url('../fonts/HedvigLettersSans-Regular.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Hedvig_Letters_Serif';
+    src: url('../fonts/HedvigLettersSerif-Regular-VariableFont_opsz.ttf') format('ttf');
+    font-weight: lighter;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Hedvig_Letters_Serif';
+    src: url('../fonts/HedvigLettersSerif-Regular-VariableFont_opsz.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Hedvig_Letters_Serif';
+    src: url('../fonts/HedvigLettersSerif-Regular-VariableFont_opsz.ttf') format('ttf');
+    font-weight: normal;
+    font-style: italic;
+  }
+  /* @font-face {
+    font-family: 'LexendDeca-VariableFont_wght';
+    src: url('../fonts/LexendDeca-VariableFont_wght.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  } */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+
+
+
+  body {
+    background-color: rgb(233, 231, 229);
+    font-family: 'roboto', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ /* GENERAL */
+
+/* Header styles */
+header {
+    background-color: #121212;
+    color: #D4DCDA;
+    /* padding: 1em; */
+    width: 100%;
+}
+
+.nav_branding{
+  font-family: "Roboto";
+ color: #ffffff;
+}
+
+
+
+h2 {
+ font-family: 'Hedvig_Letters_Sans';
+  margin: 1%;
+  padding: 1rem;
+  color: #544A47;
+}
+
+h3 {
+  font-family: 'Hedvig_Letters_Sans';
+    color: #B3ADA0;
+}
+
+/* Navigation styles */
+header {
+    width: 100%;
+}
+
+nav {
+    background-color: #544A47;
+    color: #D4DCDA;
+    /* padding: 1em; */
+}
+
+ul {
+    display: inline;
+}
+
+
+
+nav a {
+    color: #D4DCDA;
+}
+
+/* Main content styles */
+/* main {
+    background-color: #DDDCD6;
+    color: #121212;
+    padding: 20px;
+} */
+.main_content{
+  margin-top: 2rem;
+
+}
+
+/* Footer styles */
+
+footer {
+  background-color:#544A47;
+  font-family: "roboto";
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+  justify-content: space-between;
+  margin: 1rem;
+  border-radius: 1rem;
+  padding: 10px;
+  }
+
+  .footer_p1, .footer_p2{
+    color: #ffffff;
+    font-size:16px;
+    font-weight: normal;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 1%;
+    padding: 0;
+    line-height: 1.4;
+
+  }
+
+img{
+  margin-top: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  border-radius: 0.5rem;
+
+}
+
+.img_box{
+ background-color: #dac6ad;
+ margin: 1.2rem 1rem 0rem 1rem;
+ padding: 0.5rem;
+ border-radius: 1rem;
+}
+
+h3{
+  font-family: 'Hedvig_Letters_Sans';
+  margin: 1%;
+  padding: 0.5rem 3%;
+  color: #3f3937;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+p {
+
+  font-size:16px;
+  font-weight: normal;
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 2.4%;
+  padding: 0.2rem 3.5% 0.7rem 3.5%;
+  line-height: 1.4;
+}
+/* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  } */
+
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+  
+  .container {
+    max-width: 1050px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .navbar {
+    width: 100%;
+    box-shadow: 0 1px 4px rgb(146, 161, 176);
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+  }
+  
+  .navbar .menu-items {
+    display: flex;
+  }
+  
+  .navbar .nav-container li {
+    list-style: none;
+
+  }
+ 
+  
+  .navbar .nav-container a {
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.7rem;
+    font-size: 1.5rem;
+   
+  }
+
+  li{
+    color: #000;
+  }
+  
+  .navbar .nav-container a:hover{
+      font-weight: bolder;
+  }
+  
+  .nav-container {
+    display: block;
+    position: relative;
+    height: 60px;
+  }
+
+
+  .nav-container .checkbox {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+
+  .nav-container .hamburger-lines {
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .nav-container .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  
+  .nav-container .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .nav-container .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .nav-container .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .menu-items{
+    padding-top: 80px;
+    padding-bottom: 20px;
+      /* height: 100vh; */
+    max-height:100vh;
+    margin-top: 0;
+    background-color: #535353; 
+    border-radius:0 0 2rem 2rem;
+  }
+
+  .navbar .menu-items {
+    transform: translateX(-150%); 
+    box-shadow: rgb(255, 255, 255);
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    padding-left: 20px;
+    transition: transform 0.5s ease-in-out;
+    text-align: center;
+  }
+  
+  .navbar .menu-items li {
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  a{
+    color: #ffffff;
+  }
+  
+  .logo {
+    margin-top: 0.8rem;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .menu-items {
+    transform: translateX(0);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .logo{
+    display: none;
+  }
+  
+/* About-Customization */
+.about_description{
+  padding-top: 1rem;
+}  
+
+/* Maison-Margiela */
+.img_box_2{
+  background-color: #c4c3b1;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px; 
+}
+
+
+button {
+  overflow: visible;
+  border: 0;
+  padding: 0;
+  margin: 1.8rem;
+}
+.btn.striped-shadow span {
+  display: block;
+  position: relative;
+  z-index: 2;
+  border: 5px solid;
+}
+
+.btn.striped-shadow.dark span {
+  border-color: #393939;
+  background: #9ab8ab;
+  color: #393939;
+}
+
+.btn {
+  font-family: 'Bungee Shade', sans-serif;
+  height: 80px;
+  line-height: 65px;
+  display: inline-block;
+  letter-spacing: 1px;
+  position: relative;
+  font-size: 1.35rem;
+  transition: opacity .3s, z-index .3s step-end, -webkit-transform .3s;
+  transition: opacity .3s, z-index .3s step-end, transform .3s;
+  transition: opacity .3s,
+    z-index .3s step-end,
+    transform .3s,
+    -webkit-transform .3s;
+  z-index: 1;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn {
+  width: 250px;
+  height: 48px;
+  line-height: 38px;
+}
+
+
+button.btn.striped-shadow.dark:after, button.btn.striped-shadow.dark:before {
+  background-image: linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 5px,
+    #393939 5px,
+    #393939 10px,
+    transparent 10px
+  );
+}
+
+button.btn.striped-shadow:hover:before {
+  max-height: calc(100% - 10px);
+}
+
+button.btn.striped-shadow:after {
+  width: calc(100% - 4px);
+  height: 8px;
+  left: -10px;
+  bottom: -9px;
+  background-size: 15px 8px;
+  background-repeat: repeat-x;
+}
+button.btn.striped-shadow:after, button.btn.striped-shadow:before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 1;
+  transition: max-height .3s, width .3s, -webkit-transform .3s;
+  transition: transform .3s, max-height .3s, width .3s;
+  transition: transform .3s, max-height .3s, width .3s, -webkit-transform .3s;
+}
+
+.btn.striped-shadow:hover {
+  -webkit-transform: translate(-12px, 12px);
+  -ms-transform: translate(-12px, 12px);
+  transform: translate(-12px, 12px);
+  z-index: 3;
+}
+
+button.btn.striped-shadow:hover:after, button.btn.striped-shadow:hover:before {
+  -webkit-transform: translate(12px, -12px);
+  -ms-transform: translate(12px, -12px);
+  transform: translate(12px, -12px);
+}
+button.btn.striped-shadow:before {
+  width: 8px;
+  max-height: calc(100% - 5px);
+  height: 100%;
+  left: -12px;
+  bottom: -5px;
+  background-size: 8px 15px;
+  background-repeat: repeat-y;
+  background-position: 0 100%;
+}
+
+.btn_a{
+  text-decoration: none;
+  color: #383331;
+}
+
+/* Maison-Margiela F/W 18 */
+.img_box_m18a{
+  background-color: #A49393;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px; 
+}
+.img_box_m18b{
+  background-color:#EED6D3;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px; 
+}
+.img_box_m18c{
+  background-color:#E8B4B8;
+  margin: 1.2rem 1.3rem 1rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px; 
+  
+}
+
+/* Maison-Margiela SS 92*/
+.img_box_m92a{
+  background-color: #877785;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px; 
+}
+.img_box_m92b{
+  background-color:#F0D1BF;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px; 
+}
+.img_box_m92c{
+  background-color:#C59894;
+  margin: 1.2rem 1.3rem 1rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px; 
+  
+}
+
+
+
+/* Maison-Margiela SS 90*/
+.img_box_m90a{
+  background-color: #DAE7DD;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px; 
+}
+.img_box_m90b{
+  background-color:#DBC39A;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px; 
+}
+.img_box_m90c{
+  background-color:#F7C9B6;
+  margin: 1.2rem 1.3rem 1rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px; 
+  
+}
+
+
+
+/* Yohji-Yamamoto F/W 91 */
+.img_box_y91a{
+  background-color: #E6E6FA;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;
+}
+
+/* box shawdow code from w3school, edited to fit */
+
+.img_box_y91b{
+  background-color:#FFDAB9;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;
+}
+
+.img_box_y91c{
+  background-color:#98FB98;
+  margin: 1.2rem 1.3rem 1rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;  
+}
+
+
+
+/* Yohji-Yamamoto S/S 97 */
+.img_box_y97a{
+  background-color: #FFA07A;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;  
+}
+
+.img_box_y97b{
+  background-color:#FFD700;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;  
+}
+
+.img_box_y97c{
+  background-color:#FF6347;
+  margin: 1.2rem 1.3rem 1rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;  
+}
+
+
+
+/* Yohji-Yamamoto S/S 24 */
+.img_box_y24a{
+  background-color: #AFEEEE;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;  
+}
+
+.img_box_y24b{
+  background-color:#FFB6C1;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;  
+}
+
+.img_box_y24c{
+  background-color:#00FA9A;
+  margin: 1.2rem 1.3rem 1rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;  
+}
+
+
+
+/* Rick-Owens F/W 12 */
+.img_box_r12a{
+  background-color: #B0C4DE;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.60), 0 10px 16px rgba(0,0,0,0.14);
+}
+
+/* box shawdow code from htmlcssfreebies, edited to fit /
+/ button from codepen, edited to fit */
+
+
+.img_box_r12b{
+  background-color:#ADD8E6;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.60), 0 10px 16px rgba(0,0,0,0.14);
+}
+.img_box_r12c{
+  background-color:#BC8F8F;
+  margin: 1.2rem 1.3rem 1rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.60), 0 10px 16px rgba(0,0,0,0.14);
+}
+
+
+
+/* Rick-Owens F/W 15 */
+.img_box_r15a{
+  background-color: #E6E6FA;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.60), 0 10px 16px rgba(0,0,0,0.14);
+}
+
+.img_box_r15b{
+  background-color:#D8BFD8;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.60), 0 10px 16px rgba(0,0,0,0.14);
+}
+
+.img_box_r15c{
+  background-color:#C0C0C0;
+  margin: 1.2rem 1.3rem 1rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.60), 0 10px 16px rgba(0,0,0,0.14);
+}
+
+
+
+/* Rick Owens S/S 16 */
+.img_box_r16a{
+  background-color: #98FB98;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px; 
+}
+.img_box_r16b{
+  background-color:#B0E0E6;
+  margin: 1.2rem 1.3rem 0rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px; 
+}
+.img_box_r16c{
+  background-color:#D8BFD8;
+  margin: 1.2rem 1.3rem 1rem 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px; 
+  
+}
