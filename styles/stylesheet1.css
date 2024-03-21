@@ -136,7 +136,17 @@ footer {
     margin: 1%;
     padding: 0;
     line-height: 1.4;
+  }
 
+  @media only screen and (max-width: 768px) {
+    footer {
+      padding: 20px;
+    }
+    
+    .footer_p1, .footer_p2 {
+      font-size: 14px; 
+      margin: 5px;
+    }
   }
 
 img{
@@ -146,11 +156,10 @@ img{
   margin-right: auto;
   max-width: 90%;
   border-radius: 0.5rem;
-
 }
 
 .img_box{
- background-color: #dac6ad;
+ background-color: #9a8f8a;
  margin: 1.2rem 1rem 0rem 1rem;
  padding: 0.5rem;
  border-radius: 1rem;
@@ -171,7 +180,10 @@ p {
   font-size:16px;
   font-weight: normal;
   font-family: 'Plus_Jakarta_Sans', sans-serif;
-  margin: 2.4%;
+  /*margin: 2.4%;*/
+  margin-left: 12.0%;
+  margin-right: 12.0%;
+  margin-top: 2.5%;
   padding: 0.2rem 3.5% 0.7rem 3.5%;
   line-height: 1.4;
 }
@@ -350,13 +362,13 @@ p {
 
 /* Maison-Margiela */
 .img_box_2{
-  background-color: #c4c3b1;
-  margin: 1.2rem 1.3rem 0rem 1rem;
+  background-color: #989090;
+  margin: 1.2rem 10rem 0rem 10rem;
   padding: 0.2rem;
   border-radius: 1rem;
   box-shadow: 5px 5px; 
 }
-
+/*  margin: 1.2rem 1.3rem 0rem 1rem;*/
 
 button {
   overflow: visible;
@@ -466,21 +478,21 @@ button.btn.striped-shadow:before {
 
 /* Maison-Margiela F/W 18 */
 .img_box_m18a{
-  background-color: #A49393;
+  background-color: #ABA190;
   margin: 1.2rem 1.3rem 0rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
   box-shadow: 5px 5px; 
 }
 .img_box_m18b{
-  background-color:#EED6D3;
+  background-color:#ABA190;
   margin: 1.2rem 1.3rem 0rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
   box-shadow: 5px 5px; 
 }
 .img_box_m18c{
-  background-color:#E8B4B8;
+  background-color:#ABA190;
   margin: 1.2rem 1.3rem 1rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
@@ -490,21 +502,21 @@ button.btn.striped-shadow:before {
 
 /* Maison-Margiela SS 92*/
 .img_box_m92a{
-  background-color: #877785;
+  background-color: #ABA190;
   margin: 1.2rem 1.3rem 0rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
   box-shadow: 5px 5px; 
 }
 .img_box_m92b{
-  background-color:#F0D1BF;
+  background-color:#ABA190;
   margin: 1.2rem 1.3rem 0rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
   box-shadow: 5px 5px; 
 }
 .img_box_m92c{
-  background-color:#C59894;
+  background-color:#ABA190;
   margin: 1.2rem 1.3rem 1rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
@@ -516,21 +528,21 @@ button.btn.striped-shadow:before {
 
 /* Maison-Margiela SS 90*/
 .img_box_m90a{
-  background-color: #DAE7DD;
+  background-color: #ABA190;
   margin: 1.2rem 1.3rem 0rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
   box-shadow: 5px 5px; 
 }
 .img_box_m90b{
-  background-color:#DBC39A;
+  background-color:#ABA190;
   margin: 1.2rem 1.3rem 0rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
   box-shadow: 5px 5px; 
 }
 .img_box_m90c{
-  background-color:#F7C9B6;
+  background-color:#ABA190;
   margin: 1.2rem 1.3rem 1rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
@@ -542,7 +554,7 @@ button.btn.striped-shadow:before {
 
 /* Yohji-Yamamoto F/W 91 */
 .img_box_y91a{
-  background-color: #E6E6FA;
+  background-color: #958977;
   margin: 1.2rem 1.3rem 0rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
@@ -552,7 +564,7 @@ button.btn.striped-shadow:before {
 /* box shawdow code from w3school, edited to fit */
 
 .img_box_y91b{
-  background-color:#FFDAB9;
+  background-color:#958977;
   margin: 1.2rem 1.3rem 0rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
@@ -560,7 +572,7 @@ button.btn.striped-shadow:before {
 }
 
 .img_box_y91c{
-  background-color:#98FB98;
+  background-color:#958977;
   margin: 1.2rem 1.3rem 1rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
@@ -571,7 +583,7 @@ button.btn.striped-shadow:before {
 
 /* Yohji-Yamamoto S/S 97 */
 .img_box_y97a{
-  background-color: #FFA07A;
+  background-color: #958977;
   margin: 1.2rem 1.3rem 0rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
@@ -579,7 +591,7 @@ button.btn.striped-shadow:before {
 }
 
 .img_box_y97b{
-  background-color:#FFD700;
+  background-color:#958977;
   margin: 1.2rem 1.3rem 0rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
@@ -587,7 +599,7 @@ button.btn.striped-shadow:before {
 }
 
 .img_box_y97c{
-  background-color:#FF6347;
+  background-color:#958977;
   margin: 1.2rem 1.3rem 1rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
@@ -598,7 +610,7 @@ button.btn.striped-shadow:before {
 
 /* Yohji-Yamamoto S/S 24 */
 .img_box_y24a{
-  background-color: #AFEEEE;
+  background-color: #958977;
   margin: 1.2rem 1.3rem 0rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
@@ -606,7 +618,7 @@ button.btn.striped-shadow:before {
 }
 
 .img_box_y24b{
-  background-color:#FFB6C1;
+  background-color:#958977;
   margin: 1.2rem 1.3rem 0rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
@@ -614,7 +626,7 @@ button.btn.striped-shadow:before {
 }
 
 .img_box_y24c{
-  background-color:#00FA9A;
+  background-color:#958977;
   margin: 1.2rem 1.3rem 1rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
@@ -625,7 +637,7 @@ button.btn.striped-shadow:before {
 
 /* Rick-Owens F/W 12 */
 .img_box_r12a{
-  background-color: #B0C4DE;
+  background-color: #827C72;
   margin: 1.2rem 1.3rem 0rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
@@ -637,14 +649,14 @@ button.btn.striped-shadow:before {
 
 
 .img_box_r12b{
-  background-color:#ADD8E6;
+  background-color:#827C72;
   margin: 1.2rem 1.3rem 0rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
   box-shadow: 0 15px 20px rgba(0,0,0,0.60), 0 10px 16px rgba(0,0,0,0.14);
 }
 .img_box_r12c{
-  background-color:#BC8F8F;
+  background-color:#827C72;
   margin: 1.2rem 1.3rem 1rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
@@ -655,7 +667,7 @@ button.btn.striped-shadow:before {
 
 /* Rick-Owens F/W 15 */
 .img_box_r15a{
-  background-color: #E6E6FA;
+  background-color: #827C72;
   margin: 1.2rem 1.3rem 0rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
@@ -663,7 +675,7 @@ button.btn.striped-shadow:before {
 }
 
 .img_box_r15b{
-  background-color:#D8BFD8;
+  background-color:#827C72;
   margin: 1.2rem 1.3rem 0rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
@@ -671,7 +683,7 @@ button.btn.striped-shadow:before {
 }
 
 .img_box_r15c{
-  background-color:#C0C0C0;
+  background-color:#827C72;
   margin: 1.2rem 1.3rem 1rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
@@ -682,21 +694,21 @@ button.btn.striped-shadow:before {
 
 /* Rick Owens S/S 16 */
 .img_box_r16a{
-  background-color: #98FB98;
+  background-color: #827C72;
   margin: 1.2rem 1.3rem 0rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
   box-shadow: 5px 5px; 
 }
 .img_box_r16b{
-  background-color:#B0E0E6;
+  background-color:#827C72;
   margin: 1.2rem 1.3rem 0rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
   box-shadow: 5px 5px; 
 }
 .img_box_r16c{
-  background-color:#D8BFD8;
+  background-color:#827C72;
   margin: 1.2rem 1.3rem 1rem 1rem;
   padding: 0.2rem;
   border-radius: 1rem;
