@@ -69,12 +69,22 @@ header {
 
 
 
-h2 {
+/*h2 {
  font-family: 'Silver_Garden';
   margin: 1%;
   padding: 1rem;
   color: #544A47;
   text-align: center;
+}*/
+
+h2 {
+  font-family: 'Silver_Garden';
+  margin: 1%;
+  padding: 1rem;
+  color: #544A47;
+  text-align: center;
+  width: 100%; /* Make the header expand to the full width of the screen */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
 }
 
 h3 {
@@ -198,7 +208,7 @@ p {
 
   
   .container {
-    max-width: 1050px;
+    max-width: 100%;
     width: 100%;
     margin: auto;
   }
@@ -221,7 +231,6 @@ p {
   
   .navbar .nav-container li {
     list-style: none;
-
   }
  
   
@@ -368,7 +377,6 @@ p {
   border-radius: 1rem;
   box-shadow: 5px 5px; 
 }
-/*  margin: 1.2rem 1.3rem 0rem 1rem;*/
 
 button {
   overflow: visible;
@@ -561,7 +569,6 @@ button.btn.striped-shadow:before {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;
 }
 
-/* box shawdow code from w3school, edited to fit */
 
 .img_box_y91b{
   background-color:#958977;
